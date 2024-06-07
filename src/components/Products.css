@@ -1,0 +1,90 @@
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.container {
+  margin: 10%;
+}
+
+.create-button {
+  background-color: #4dff82; 
+  color: white; 
+  width: 100px;
+  margin-left: 80%;
+  margin-bottom: 2%;
+
+  &:hover {
+    background-color: #22f593;
+  }
+
+}
+
+.delete-button {
+  background-color: #ff4d4f; 
+  color: white; 
+
+  &:hover {
+    background-color: #f5222d;
+  }
+
+}
+
+.edit-button {
+  background-color: #1890ff; 
+  color: white; 
+  margin-left: 10px; 
+
+  &:hover {
+    background-color: #096dd9;
+  }
+}
+/* Estilos del modal */
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #999;
+}
+
+.modal-content {
+  margin-top: 20px;
+}
+
+.modal-content h2 {
+  color: #333;
+}
+
+.modal-content p {
+  color: #666;
+}
